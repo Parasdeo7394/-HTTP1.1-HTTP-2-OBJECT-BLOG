@@ -1,0 +1,50 @@
+1) Write a blog on Difference between HTTP1.1 vs HTTP2
+
+        HTTP1.1                                       HTTP2
+        
+        i)Loads resource one after        i)Able to use a single TCP
+          other, so if one resources       connection to send multiple
+          cannot be loaded ,it block       streams of data at once so that
+          all the resorces behind it.      no one resurce blocks any other resource.
+
+        ii)req -> textual data            ii)req -> binary format
+
+       iii)it will wait for the          iii)it can take multiple request at a
+            server to  return a               time and respond with appropirate
+            data and terminates                date for that req. 
+            its connection.                    (Multiplexing)
+     
+       iv)he data will be given in       iv)binary format will be compressed.
+          the compressed format
+
+        v)quite slower when compared     v)it processes faster than HTTP 1
+           to HTTP 2
+   
+        vi)Eg Search engine              vi)Eg Social media app
+
+2)Write a blog about objects and its internal representation in Javascrip
+
+     Objects contains many value as key pair.In object have keys which is also treated
+     as propety of object.It make our javasript code easier and more sustainable.
+     Objects are important data types in javascript.Objects are different than primitive 
+     datatypes(i.e. number, string, boolean, etc.).Primitive data types contain one value
+     but Objects can hold many values in form of Key: value pair.
+    
+   
+     var Parasdreamplace = new Object();
+
+     Parasdreamplace.land = 'Moon';
+
+     Parasdreamplace.puchasing year = '2036';
+
+     Parasdreamplace.how much = 'five hectare';
+ 
+   
+
+     After creating Parasdreamplace, the value inside the object can be accessed using keys.
+
+     i.e.
+
+     Parasdreamplace.land
+
+     Output: Moon
